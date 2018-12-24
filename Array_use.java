@@ -41,8 +41,7 @@ class Array_use {
             }
         }
         System.out.println("the biggest value is "+first_value);
-        System.out.println("hello");
-        System.out.println("test");
+      
     }
    
 
