@@ -1,0 +1,15 @@
+class a{
+    int k; 
+    show();
+}
+
+
+a obj = new a(); ----- normal reference variable obj is crated and it stores the value to the stack and heap both.
+                        it's store the obj and hashcodevalue in the stack and refering to the heap.         
+                        so it's cleared by garbage collection becouse it's refering the stack to heap.
+
+new a().shwo();  ------ this does not required memory to stack.it's called annonymusobject.
+                        it's called the show() mehtod but directliy sotre to heap.
+                        garbage collection now clear memory in heap after it's got executed and memory are use efficentliy.
+
+                        
