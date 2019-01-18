@@ -23,10 +23,10 @@ class dictionary_map{
     }
 
 
+  }
 
 
-
-
+/* 
     //check for is kishan is available in the MyInfo;
     
     public String checkkey(String dhruv)
@@ -34,4 +34,4 @@ class dictionary_map{
     this.dhruv=dhruv;
     return MyInfo.containsKey(dhruv);
     }
-}
+} */

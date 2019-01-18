@@ -1,4 +1,4 @@
-class node
+/* class node
 {
 
     node Next;
@@ -21,9 +21,9 @@ class node
     {
         return data;
     }
-    public node getnext()
+   public node getnext()
     {
-        return next;
+    return next;
     }
     public void setData(int newData){
         data = newData;
@@ -101,4 +101,4 @@ public class linkList_Complex{
     public static void main(String[] args) {
         
     }
-}
+} */

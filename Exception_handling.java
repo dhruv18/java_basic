@@ -1,8 +1,54 @@
 import java.util.*;
 
-public class Exception_handling{
+class Examples {
+    Scanner sc = new Scanner(System.in);
 
+    int a = 0, c = 0, aa[];
+
+    // example 1;
+    public void exception_using_forloop() {
+        Random r = new Random();
+
+        for (int a = 0; a <= 20; a++) {
+            try {
+                // int b = r.nextInt(max==20 - min==10+1)+min==10;
+                int b = r.nextInt(10);// o to 9 between
+                c = 10 / b;
+                System.out.println(b);
+            } catch (Exception e) {
+                c = 0;
+                System.out.println("exception handled");
+            }
+        }
+        System.out.println("-----------------------------1");
+    }
+
+    // examole 2;
+    public void multiplecatch() {
+        try {
+            //a = 5 / 0;
+            aa = new int[5];
+            aa[2]=15;
+           // System.out.println(a);
+            System.out.println(aa[2]);
+        } catch (ArithmeticException e) {
+                System.out.println("arithmatic catch block");
+            
+        } catch (Exception e) {
+            System.out.println(e);
+        }
+        System.out.println("-----------------------------2");
+    }
+
+}
+
+public class Exception_handling {
     public static void main(String[] args) {
-        System.out.println("hello");  
+        // example 1;
+        Examples e1 = new Examples();
+        e1.exception_using_forloop();
+        // example 2;
+        e1.multiplecatch();
+
     }
 }
