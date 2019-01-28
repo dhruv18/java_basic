@@ -6,6 +6,63 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - FindSecondLargeNumber",
+            "request": "launch",
+            "mainClass": "FindSecondLargeNumber",
+            "projectName": "vs_code_ java_2dfcffb1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - test2",
+            "request": "launch",
+            "mainClass": "test2",
+            "projectName": "vs_code_ java_2dfcffb1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Enum_userdefined",
+            "request": "launch",
+            "mainClass": "Enum_userdefined",
+            "projectName": "vs_code_ java_2dfcffb1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - findMaximum",
+            "request": "launch",
+            "mainClass": "findMaximum",
+            "projectName": "vs_code_ java_2dfcffb1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - palindrom_onliyNum",
+            "request": "launch",
+            "mainClass": "palindrom_onliyNum",
+            "projectName": "vs_code_ java_2dfcffb1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - palindrom",
+            "request": "launch",
+            "mainClass": "palindrom",
+            "projectName": "vs_code_ java_2dfcffb1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - linkList_easy",
+            "request": "launch",
+            "mainClass": "linkList_easy",
+            "projectName": "vs_code_ java_2dfcffb1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ExceptionHandlingWithExample",
+            "request": "launch",
+            "console": "integratedTerminal",
+            "mainClass": "ExceptionHandlingWithExample",
+            "projectName": "vs_code_ java_2dfcffb1"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Array_Multidimension",
             "request": "launch",
             "mainClass": "Array_Multidimension",

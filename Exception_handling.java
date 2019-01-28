@@ -20,26 +20,47 @@ class Examples {
                 System.out.println("exception handled");
             }
         }
-        System.out.println("-----------------------------1");
+        System.out.println("-----------------------------2");
     }
 
     // examole 2;
     public void multiplecatch() {
         try {
-            //a = 5 / 0;
+            // a = 5 / 0;
             aa = new int[5];
-            aa[2]=15;
-           // System.out.println(a);
+            aa[2] = 15;
+            // System.out.println(a);
             System.out.println(aa[2]);
         } catch (ArithmeticException e) {
-                System.out.println("arithmatic catch block");
-            
+            System.out.println("arithmatic catch block");
+
         } catch (Exception e) {
             System.out.println(e);
         }
-        System.out.println("-----------------------------2");
+        System.out.println("-----------------------------3");
     }
 
+    // example 3;
+    public void useofthroww() {
+        try {
+            int a = 10;
+            if (a <= 10) {
+                throw new myException("hello throw form user defined exception");
+            }
+        } catch (Exception e) {
+            System.out.println(e);
+        }
+    }
+
+}
+
+// user defined exception class
+class myException extends Exception {
+    public myException(String msg) {
+        super(msg);
+        System.out.println(msg);
+
+    }
 }
 
 public class Exception_handling {
@@ -49,6 +70,8 @@ public class Exception_handling {
         e1.exception_using_forloop();
         // example 2;
         e1.multiplecatch();
+        // exmaple 3;
+        e1.useofthroww();
 
     }
 }
