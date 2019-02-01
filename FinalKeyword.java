@@ -1,10 +1,11 @@
 class FinalKeyword{
+
+   final static void get(){
+       System.out.println("final static vodi get");
+   }
   
     public static void main(String[] args) {
-    FinalKeyword f = null;
-    FinalKeyword.show();
-    }
-    static void show(){
-        System.out.println("hello");
-    }
-}
+
+        FinalKeyword.get();
+        
+}}
